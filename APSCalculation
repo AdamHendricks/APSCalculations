@@ -1,0 +1,186 @@
+
+package apscalculations;
+import java.util.Scanner;
+
+ 
+
+ public class APSCalculations extends results{
+
+    private int homelanguagePercent;
+    private int firstadditionallaguagePercent;
+    private int mathsPercent;
+    private int lifeorientationPercent;
+    private int other1subPercent;
+    private int others2subPercent;
+    private int other3subPercent;
+    
+    public static void main(String[] args) {
+    
+     public APSCalculations(double homelanguagePercent, double firstadditionallaguagePercent,
+            double mathsPercent, double lifeorientationPercent, double other1subPercent,
+            double others2subPercent, double other3subPercent){
+        super(homelanguagePercent, firstadditionallaguagePercent, mathsPercent, lifeorientationPercent, other1subPercent, others2subPercent, other3subPercent);}
+     
+         public void CPUTapsScore(double homelanguagePercent){
+        if(homelanguagePercent < 20){
+            this.homelanguagePercent = 0;
+        }else if(homelanguagePercent >= 20 && homelanguagePercent<= 29){
+            this.homelanguagePercent = 1;
+        }else if(homelanguagePercent >= 30 && homelanguagePercent <= 39){
+            this.homelanguagePercent = 3;
+        }else if(homelanguagePercent >= 40 &&homelanguagePercent <= 49){
+            this.homelanguagePercent = 5;
+        }else if(homelanguagePercent >= 50 && homelanguagePercent <= 59){
+            this.homelanguagePercent = 7;
+        }else if(homelanguagePercent >= 60 && homelanguagePercent <= 69){
+            this.homelanguagePercent = 9;
+        }else if(homelanguagePercent >= 70 && homelanguagePercent <= 79){
+            this.homelanguagePercent = 11;
+        }else if(homelanguagePercent >= 80 && homelanguagePercent <= 89){
+            this.homelanguagePercent = 13;
+        }else if(homelanguagePercent >= 90 && homelanguagePercent <=100){
+            this.homelanguagePercent = 15;
+    }
+}
+    
+ public void CPUTapsScore1(double firstadditionallaguagePercent){
+        if(firstadditionallaguagePercent < 20){
+            this.firstadditionallaguagePercent = 0;
+        }else if(firstadditionallaguagePercent >= 20 && firstadditionallaguagePercent<= 29){
+            this.firstadditionallaguagePercent = 1;
+        }else if(firstadditionallaguagePercent >= 30 && firstadditionallaguagePercent <= 39){
+            this.firstadditionallaguagePercent = 3;
+        }else if(firstadditionallaguagePercent >= 40 && firstadditionallaguagePercent <= 49){
+            this.firstadditionallaguagePercent = 5;
+        }else if(firstadditionallaguagePercent >= 50 && firstadditionallaguagePercent <= 59){
+            this.firstadditionallaguagePercent = 7;
+        }else if(firstadditionallaguagePercent >= 60 && firstadditionallaguagePercent <= 59){
+            this.firstadditionallaguagePercent = 9;
+        }else if(firstadditionallaguagePercent >= 70 && firstadditionallaguagePercent <= 79){
+            this.firstadditionallaguagePercent = 11;
+        }else if(firstadditionallaguagePercent >= 80 && firstadditionallaguagePercent <= 89){
+            this.firstadditionallaguagePercent = 13;
+        }else if(firstadditionallaguagePercent >= 90 && firstadditionallaguagePercent <=100){
+            this.firstadditionallaguagePercent = 15;
+        }
+    }
+
+ public void CPUTapsScore2(double mathsPercent){
+        if(mathsPercent < 20){
+            this.mathsPercent = 0;
+        }else if(mathsPercent >= 20 && mathsPercent<= 29){
+            this.mathsPercent = 1;
+        }else if(mathsPercent >= 30 && mathsPercent <= 39){
+            this.mathsPercent = 1;
+        }else if(mathsPercent >= 40 && mathsPercent <= 49){
+            this.mathsPercent = 1;
+        }else if(mathsPercent >= 50 && mathsPercent <= 59){
+            this.mathsPercent = 2;
+        }else if(mathsPercent >= 60 && mathsPercent <= 59){
+            this.mathsPercent = 2;
+        }else if(mathsPercent >= 70 && mathsPercent <= 79){
+            this.mathsPercent = 2;
+        }else if(mathsPercent >= 80 && mathsPercent <= 89){
+            this.mathsPercent = 3;
+        }else if(mathsPercent >= 90 && mathsPercent <=100){
+            this.mathsPercent = 3;
+        }
+    }
+     
+     public void CPUTapsScore3(double lifeorientationPercent){
+        if(lifeorientationPercent < 20){
+            this.lifeorientationPercent = 0;
+        }else if(lifeorientationPercent >= 20 && lifeorientationPercent<= 29){
+            this.lifeorientationPercent = 1;
+        }else if(lifeorientationPercent >= 30 && lifeorientationPercent <= 39){
+            this.lifeorientationPercent = 2;
+        }else if(lifeorientationPercent >= 40 && lifeorientationPercent <= 49){
+            this.lifeorientationPercent = 3;
+        }else if(lifeorientationPercent >= 50 && lifeorientationPercent <= 59){
+            this.lifeorientationPercent = 4;
+        }else if(lifeorientationPercent >= 60 && lifeorientationPercent <= 69){
+            this.lifeorientationPercent = 5;
+        }else if(lifeorientationPercent >= 70 && lifeorientationPercent <= 79){
+            this.lifeorientationPercent = 6;
+        }else if(lifeorientationPercent >= 80 && lifeorientationPercent <= 89){
+            this.lifeorientationPercent = 7;
+        }else if(lifeorientationPercent >= 90 && lifeorientationPercent <=100){
+            this.lifeorientationPercent = 8;
+        }
+    }
+     
+     public void CPUTapsScore4(double other1subPercent){
+        if(other1subPercent < 20){
+            this.other1subPercent = 0;
+        }else if(other1subPercent >= 20 && other1subPercent<= 29){
+            this.other1subPercent = 1;
+        }else if(other1subPercent >= 30 && other1subPercent <= 39){
+            this.other1subPercent = 2;
+        }else if(other1subPercent >= 40 && other1subPercent <= 49){
+            this.other1subPercent = 3;
+        }else if(other1subPercent >= 50 && other1subPercent <= 59){
+            this.other1subPercent = 4;
+        }else if(other1subPercent >= 60 && other1subPercent <= 69){
+            this.other1subPercent = 5;
+        }else if(other1subPercent >= 70 && other1subPercent <= 79){
+            this.other1subPercent = 6;
+        }else if(other1subPercent >= 80 && other1subPercent <= 89){
+            this.other1subPercent = 7;
+        }else if(other1subPercent >= 90 && other1subPercent <=100){
+            this.other1subPercent = 8;
+        }
+    }
+     
+      public void CPUTapsScore5(double others2subPercent){
+        if(others2subPercent < 20){
+            this.others2subPercent = 0;
+        }else if(others2subPercent >= 20 && others2subPercent<= 29){
+            this.others2subPercent = 1;
+        }else if(others2subPercent >= 30 && others2subPercent <= 39){
+            this.others2subPercent = 2;
+        }else if(others2subPercent >= 40 && others2subPercent <= 49){
+            this.others2subPercent = 3;
+        }else if(others2subPercent >= 50 && others2subPercent <= 59){
+            this.others2subPercent = 4;
+        }else if(others2subPercent >= 60 && others2subPercent <= 69){
+            this.others2subPercent = 5;
+        }else if(others2subPercent >= 70 && others2subPercent <= 79){
+            this.others2subPercent = 6;
+        }else if(others2subPercent >= 80 && others2subPercent <= 89){
+            this.others2subPercent = 7;
+        }else if(others2subPercent >= 90 && others2subPercent <=100){
+            this.others2subPercent = 8;
+        }
+    }
+     
+       public void CPUTapsScore6(double other3subPercent){
+        if(other3subPercent < 20){
+            this.other3subPercent = 0;
+        }else if(other3subPercent >= 20 && other3subPercent<= 29){
+            this.other3subPercent = 1;
+        }else if(other3subPercent >= 30 && other3subPercent <= 39){
+            this.other3subPercent = 2;
+        }else if(other3subPercent >= 40 && other3subPercent <= 49){
+            this.other3subPercent = 3;
+        }else if(other3subPercent >= 50 && other3subPercent <= 59){
+            this.other3subPercent = 4;
+        }else if(other3subPercent >= 60 && other3subPercent <= 69){
+            this.other3subPercent = 5;
+        }else if(other3subPercent >= 70 && other3subPercent <= 79){
+            this.other3subPercent = 6;
+        }else if(other3subPercent >= 80 && other3subPercent <= 89){
+            this.other3subPercent = 7;
+        }else if(other3subPercent >= 90 && other3subPercent <=100){
+            this.other3subPercent = 8;
+        }
+    
+       }
+       
+       public double pointTotal(){
+        double total = homelanguagePercent + firstadditionallaguagePercent + mathsPercent + lifeorientationPercent + other1subPercent + others2subPercent +
+        other3subPercent;
+        Math.round(total);
+        return total;
+       }
+}
+      
