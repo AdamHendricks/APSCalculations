@@ -9,32 +9,35 @@ import java.util.Scanner;
 public class CPUTAPSscore {
     /* Calculate APS marks of the the six subjects */
     
-    class APS{
 
     
     public static void main(String[] args) {
-       String  Homelang = null;
-       String FAL = null;
-       String Other1 = null;
-       String Other2 = null;
-       String Other3 = null;
-       String Other4 = null;
+        Scanner r =new Scanner(System.in);
+        
+       int Homelang;
+       System.out.println("Enter percentage of homelanguage: ");
+       Homelang = r.nextInt();
+       int FAL ;
+       System.out.println("Enter percentage of FAL: ");
+       FAL = r.nextInt();
+       int Other1;
+       System.out.println("Enter percentage of Other1: ");
+       Other1 = r.nextInt();
+       int Other2;
+       System.out.println("Enter percentage of Other2: ");
+       Other2 = r.nextInt();
+       int Other3;
+       System.out.println("Enter percentage of Other: ");
+       Other3 = r.nextInt();
+       int Other4 ;
+       System.out.println("Enter percentage of Other4: ");
+       Other4 = r.nextInt();
 
-       System.out.println("Enter Percentage of each of the six subject excluding LO");
-       Scanner r=new Scanner(System.in);
-       Homelang=r.next(Homelang);
-       FAL=r.next(FAL);
-       Other1=r.next(Other1);
-       Other2=r.next(Other2);
-       Other3=r.next(Other3);
-       Other4=r.next(Other4);
        
-       String sum=Homelang+FAL+Other1+Other2+Other3+Other4;
+       int sum=Homelang+FAL+Other1+Other2+Other3+Other4;
        System.out.println("Total Marks"+sum);
        
-       double APS=sum/10.0;
-       System.out.println("Average marks"+ APS);
+       double avg =sum/10;
+       System.out.println("Average marks"+ avg);
     }
-    }
-    
 }
