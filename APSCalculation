@@ -37,7 +37,8 @@ public class CPUTAPSscore {
        int sum=Homelang+FAL+Other1+Other2+Other3+Other4;
        System.out.println("Total Marks"+sum);
        
-       double avg =sum/10;
+       //You are not calculating average.
+       double avg =sum/10;  //change variable name avg to aps
        System.out.println("Average marks"+ avg);
     }
 }
